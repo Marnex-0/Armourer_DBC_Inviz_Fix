@@ -15,7 +15,6 @@ public class JBRAdisableInvisCheck {
         method = "preRenderCallback(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
         at = @At(value = "INVOKE", target = "Lnet/minecraft/client/entity/AbstractClientPlayer;isInvisible()Z"))
     private boolean alwaysVisible(AbstractClientPlayer player) {
-        System.out.println("Hey I'm HERE DUMBASS!!!");
         return false;
     }
 }
