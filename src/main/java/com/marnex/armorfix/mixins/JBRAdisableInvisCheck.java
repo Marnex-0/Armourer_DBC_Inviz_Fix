@@ -18,6 +18,7 @@ public class JBRAdisableInvisCheck {
             target = "Lnet/minecraft/client/entity/AbstractClientPlayer;isInvisible()Z",
             ordinal = 0),
         remap = true)
+
     protected boolean alwaysVisible(AbstractClientPlayer player) {
         return false;
     }

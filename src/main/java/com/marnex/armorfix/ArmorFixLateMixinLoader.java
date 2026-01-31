@@ -17,6 +17,7 @@ public class ArmorFixLateMixinLoader implements ILateMixinLoader {
 
     @Override
     public List<String> getMixins(Set<String> loadedMods) {
+
         List<String> mixins = new ArrayList<>();
         mixins.add("JBRAdisableInvisCheck");
         return mixins;
