@@ -13,8 +13,12 @@ public class JBRAdisableInvisCheck {
 
     @Redirect(
         method = "preRenderCallback(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
-        at = @At(value = "INVOKE", target = "Lnet/minecraft/client/entity/AbstractClientPlayer;isInvisible()Z"))
-    private boolean alwaysVisible(AbstractClientPlayer player) {
+        at = @At(
+            value = "INVOKE",
+            target = "Lnet/minecraft/client/entity/AbstractClientPlayer;isInvisible()Z",
+            ordinal = 0),
+        remap = true)
+    protected boolean alwaysVisible(AbstractClientPlayer player) {
         return false;
     }
 }

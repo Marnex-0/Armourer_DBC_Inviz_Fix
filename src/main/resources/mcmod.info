@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "A mod that fixes DBC player scaling while invis for ArmourerWorkshop item scaling",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "none",
+		"updateUrl": "",
+		"authorList": [_Marnex_],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}
