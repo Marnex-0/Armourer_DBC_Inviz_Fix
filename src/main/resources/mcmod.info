@@ -6,7 +6,7 @@
 		"description": "A mod that fixes DBC player scaling while invis for ArmourerWorkshop item scaling",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "none",
+		"url": "https://github.com/Marnex-0/Armourer_DBC_Inviz_Fix",
 		"updateUrl": "",
 		"authorList": [_Marnex_],
 		"credits": "",
